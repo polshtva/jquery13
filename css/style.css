@@ -1,0 +1,69 @@
+/* Стили для всего тела страницы */
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin:0;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Стили для заголовка */
+h1{
+    color: #333;
+    font-size: 3em;
+    text-shadow: 1px 1px 1px gray;
+}
+/* Стили для поля ввода */
+#task
+{
+    padding: 10px;
+    font-size: 16px;
+    width: 60%;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px 2px gray;
+}
+/* Стили для кнопки добавления дела */
+#add-button{
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+/* Стили при наведении на кнопку добавления дела */
+#add-button:hover{
+    background-color: #0056b3;
+}
+/* Стили для списка дел */
+#todo-list{
+    list-style: none;
+    padding:0;
+}
+/* Стили для элементов списка дел */
+#todo-list li{
+    background-color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    box-shadow: 8px 8px 4px rgba(0,0,0, 0.1);
+}
+/* Стили для кнопки удаления дела */
+#todo-list button{
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+/* Стили при наведении на кнопку удаления дела */
+#todo-list button:hover {
+    background-color: #c82333;
+}
